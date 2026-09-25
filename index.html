@@ -26,7 +26,7 @@
     *{animation-duration:.001s !important;animation-iteration-count:1 !important;transition-duration:.001s !important;scroll-behavior:auto !important}
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--page-bg);color:var(--text);font-family:var(--font-text);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-feature-settings:"numr";letter-spacing:-.022em}
+  body{margin:0;background:var(--page-bg);color:var(--text);font-family:var(--font-text);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;letter-spacing:-.022em}
   a{color:#0a90dd;text-decoration:none}
   h1,h2,h3{font-family:var(--font-display);letter-spacing:-.02em}
   p,span,button,a{font-family:var(--font-text)}
@@ -268,20 +268,6 @@ const PRODUCTS=[
      {key:"16",label:"16\"",
       colors:[["Prateado","#e2e3e5"],["Preto espacial","#3a3a3c"]],
       chips:[
-        {key:"m4pro",label:"M4 Pro",tagline:"Desempenho pro consagrado.",
-         colorImages:["assets/mbp16-m4pro-silver-front.avif","assets/mbp16-m4pro-black-front.avif"],
-         colorGallery:[["assets/mbp16-m4pro-silver-box.avif","assets/mbp16-m4pro-silver-top.avif","assets/mbp16-m4pro-chip.avif","assets/mbp16-m4pro-battery.avif","assets/mbp16-m4pro-ia.avif","assets/mbp16-m4pro-xdr.avif","assets/mbp16-m4pro-ports.avif"],["assets/mbp16-m4pro-black-box.avif","assets/mbp16-m4pro-black-top.avif","assets/mbp16-m4pro-black-chip.avif","assets/mbp16-m4pro-black-battery.avif","assets/mbp16-m4pro-black-ia.avif","assets/mbp16-m4pro-black-xdr.avif","assets/mbp16-m4pro-black-ports.avif"]],
-         memoryOptions:[{key:"24",label:"24GB"},{key:"48",label:"48GB"}],
-         storageOptions:[{key:"512",label:"512GB"},{key:"1tb",label:"1TB"},{key:"2tb",label:"2TB"}],
-         features:[["Chip M4 Pro","CPU de até 14 núcleos e GPU de até 20 núcleos para tarefas profissionais."],["Tela Liquid Retina XDR 16,2\"","Até 1600 nits de pico de brilho."],["Bateria para o dia todo","Autonomia consagrada, mesmo sob uso intenso."]],
-         specs:[["Tela","Liquid Retina XDR de 16,2\""],["Chip","M4 Pro, CPU 12/14 núcleos, GPU 16/20 núcleos"],["Memória","Até 48GB unificada"],["Armazenamento","Até 2TB SSD"],["Bateria","Até 24 horas"],["Portas","3x Thunderbolt 5, HDMI, SDXC, MagSafe 3"]]},
-        {key:"m4max",label:"M4 Max",tagline:"O topo da geração anterior, ainda imbatível.",
-         colorImages:["assets/mbp16-m4max-silver-front.avif","assets/mbp16-m4max-black-front.avif"],
-         colorGallery:[["assets/mbp16-m4max-silver-box.avif","assets/mbp16-m4max-silver-top.avif","assets/mbp16-m4max-chip.avif","assets/mbp16-m4max-battery.avif","assets/mbp16-m4max-ia.avif","assets/mbp16-m4max-xdr.avif","assets/mbp16-m4max-ports.avif"],["assets/mbp16-m4max-black-box.avif","assets/mbp16-m4max-black-top.avif","assets/mbp16-m4max-black-chip.avif","assets/mbp16-m4max-black-battery.avif","assets/mbp16-m4max-black-ia.avif","assets/mbp16-m4max-black-xdr.avif","assets/mbp16-m4max-black-ports.avif"]],
-         memoryOptions:[{key:"36",label:"36GB"},{key:"48",label:"48GB"},{key:"64",label:"64GB"},{key:"96",label:"96GB"},{key:"128",label:"128GB"}],
-         storageOptions:[{key:"1tb",label:"1TB"},{key:"2tb",label:"2TB"},{key:"4tb",label:"4TB"},{key:"8tb",label:"8TB"}],
-         features:[["Chip M4 Max","CPU de até 16 núcleos e GPU de até 40 núcleos para cargas de trabalho extremas."],["Tela Liquid Retina XDR 16,2\"","Até 1600 nits de pico de brilho."],["Bateria para o dia todo","Autonomia consagrada, mesmo sob uso intenso."]],
-         specs:[["Tela","Liquid Retina XDR de 16,2\""],["Chip","M4 Max, CPU 14/16 núcleos, GPU 32/40 núcleos"],["Memória","Até 128GB unificada"],["Armazenamento","Até 8TB SSD"],["Bateria","Até 24 horas"],["Portas","3x Thunderbolt 5, HDMI, SDXC, MagSafe 3"]]},
         {key:"m5pro",label:"M5 Pro",tagline:"Potência de sobra para criar sem limites.",
          img:"assets/mbp16-m5pro-1.avif",
          gallery:["assets/mbp16-m5pro-1.avif","assets/mbp16-m5pro-2.avif","assets/mbp16-m5pro-3.avif","assets/mbp16-m5pro-4.avif","assets/mbp16-m5pro-5.avif","assets/mbp16-m5pro-6.avif","assets/mbp16-m5pro-7.avif","assets/mbp16-m5pro-8.avif","assets/mbp16-m5pro-9.avif","assets/mbp16-m5pro-10.avif"],
@@ -315,20 +301,6 @@ const PRODUCTS=[
          storageOptions:[{key:"256",label:"256GB"},{key:"512",label:"512GB"},{key:"1tb",label:"1TB"},{key:"2tb",label:"2TB"}],
          features:[["Chip M5","Feito para IA, com desempenho rápido para o dia todo."],["Tela Liquid Retina","Suporte a um bilhão de cores, brilho vívido."],["Até 18h de bateria","Sem ventoinha, sem ruído, sem depender da tomada."]],
          specs:[["Tela","Liquid Retina"],["Chip","M5, CPU 10 núcleos, GPU 10 núcleos"],["Memória","Até 32GB unificada"],["Armazenamento","Até 2TB SSD"],["Bateria","Até 18 horas"],["Portas","2x Thunderbolt 4, entrada para fones"]]},
-        {key:"m4",label:"M4",tagline:"Leveza que vai a qualquer lugar.",
-         colorImages:["assets/mbair-front-skyblue.avif","assets/mbair-front-silver.avif","assets/mbair-front-starlight.avif","assets/mbair-front-midnight.avif"],
-         colorGallery:[["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-memory.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-memory.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-memory.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-memory.avif","assets/mbair-box.avif"]],
-         memoryOptions:[{key:"16",label:"16GB"},{key:"24",label:"24GB"},{key:"32",label:"32GB"}],
-         storageOptions:[{key:"256",label:"256GB"},{key:"512",label:"512GB"},{key:"1tb",label:"1TB"},{key:"2tb",label:"2TB"}],
-         features:[["Chip M4","Desempenho rápido para apps, fotos e navegação pesada."],["Tela Liquid Retina","Suporte a um bilhão de cores, brilho vívido."],["Até 18h de bateria","Sem ventoinha, sem ruído, sem depender da tomada."]],
-         specs:[["Tela","Liquid Retina"],["Chip","M4, CPU 10 núcleos, GPU 8/10 núcleos"],["Memória","Até 32GB unificada"],["Armazenamento","Até 2TB SSD"],["Bateria","Até 18 horas"],["Portas","2x Thunderbolt 4, entrada para fones"]]},
-        {key:"m3",label:"M3",tagline:"Potência confiável, em qualquer lugar.",
-         colorImages:["assets/mbair-front-skyblue.avif","assets/mbair-front-silver.avif","assets/mbair-front-starlight.avif","assets/mbair-front-midnight.avif"],
-         colorGallery:[["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-box.avif"]],
-         memoryOptions:[{key:"8",label:"8GB"},{key:"16",label:"16GB"},{key:"24",label:"24GB"}],
-         storageOptions:[{key:"256",label:"256GB"},{key:"512",label:"512GB"},{key:"1tb",label:"1TB"},{key:"2tb",label:"2TB"}],
-         features:[["Chip M3","Desempenho sólido para o dia a dia, com ótima eficiência."],["Tela Liquid Retina","Suporte a um bilhão de cores, brilho vívido."],["Até 18h de bateria","Sem ventoinha, sem ruído, sem depender da tomada."]],
-         specs:[["Tela","Liquid Retina"],["Chip","M3, CPU 8 núcleos, GPU 8/10 núcleos"],["Memória","Até 24GB unificada"],["Armazenamento","Até 2TB SSD"],["Bateria","Até 18 horas"],["Portas","2x Thunderbolt, entrada para fones"]]}
       ]},
      {key:"15",label:"15\"",
       colors:[["Azul-céu","#c9d7e2"],["Prateado","#e2e3e5"],["Estelar","#e6e0d4"],["Meia-noite","#2e3641"]],
@@ -340,20 +312,6 @@ const PRODUCTS=[
          storageOptions:[{key:"256",label:"256GB"},{key:"512",label:"512GB"},{key:"1tb",label:"1TB"},{key:"2tb",label:"2TB"}],
          features:[["Chip M5","Feito para IA, com desempenho rápido para o dia todo."],["Tela Liquid Retina de 15,3\"","Suporte a um bilhão de cores, brilho vívido."],["Até 18h de bateria","Sem ventoinha, sem ruído, sem depender da tomada."]],
          specs:[["Tela","Liquid Retina de 15,3\""],["Chip","M5, CPU 10 núcleos, GPU 10 núcleos"],["Memória","Até 32GB unificada"],["Armazenamento","Até 2TB SSD"],["Bateria","Até 18 horas"],["Portas","2x Thunderbolt 4, entrada para fones"]]},
-        {key:"m4",label:"M4",tagline:"Leveza que vai a qualquer lugar.",
-         colorImages:["assets/mbair-front-skyblue.avif","assets/mbair-front-silver.avif","assets/mbair-front-starlight.avif","assets/mbair-front-midnight.avif"],
-         colorGallery:[["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-screen15.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-memory.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-screen15.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-memory.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-screen15.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-memory.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-screen15.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-memory.avif","assets/mbair-box.avif"]],
-         memoryOptions:[{key:"16",label:"16GB"},{key:"24",label:"24GB"},{key:"32",label:"32GB"}],
-         storageOptions:[{key:"256",label:"256GB"},{key:"512",label:"512GB"},{key:"1tb",label:"1TB"},{key:"2tb",label:"2TB"}],
-         features:[["Chip M4","Desempenho rápido para apps, fotos e navegação pesada."],["Tela Liquid Retina de 15,3\"","Suporte a um bilhão de cores, brilho vívido."],["Até 18h de bateria","Sem ventoinha, sem ruído, sem depender da tomada."]],
-         specs:[["Tela","Liquid Retina de 15,3\""],["Chip","M4, CPU 10 núcleos, GPU 8/10 núcleos"],["Memória","Até 32GB unificada"],["Armazenamento","Até 2TB SSD"],["Bateria","Até 18 horas"],["Portas","2x Thunderbolt 4, entrada para fones"]]},
-        {key:"m3",label:"M3",tagline:"Potência confiável, em qualquer lugar.",
-         colorImages:["assets/mbair-front-skyblue.avif","assets/mbair-front-silver.avif","assets/mbair-front-starlight.avif","assets/mbair-front-midnight.avif"],
-         colorGallery:[["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-screen15.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-screen15.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-screen15.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-box.avif"],["assets/mbair-top.avif","assets/mbair-sidecolors.avif","assets/mbair-chip.avif","assets/mbair-screen15.avif","assets/mbair-ports.avif","assets/mbair-lifestyle.avif","assets/mbair-box.avif"]],
-         memoryOptions:[{key:"8",label:"8GB"},{key:"16",label:"16GB"},{key:"24",label:"24GB"}],
-         storageOptions:[{key:"256",label:"256GB"},{key:"512",label:"512GB"},{key:"1tb",label:"1TB"},{key:"2tb",label:"2TB"}],
-         features:[["Chip M3","Desempenho sólido para o dia a dia, com ótima eficiência."],["Tela Liquid Retina de 15,3\"","Suporte a um bilhão de cores, brilho vívido."],["Até 18h de bateria","Sem ventoinha, sem ruído, sem depender da tomada."]],
-         specs:[["Tela","Liquid Retina de 15,3\""],["Chip","M3, CPU 8 núcleos, GPU 8/10 núcleos"],["Memória","Até 24GB unificada"],["Armazenamento","Até 2TB SSD"],["Bateria","Até 18 horas"],["Portas","2x Thunderbolt, entrada para fones"]]}
       ]}
    ]},
   {id:"macbook-neo",cat:"mac",catLabel:"Mac",kicker:"Novo",name:"MacBook Neo",tagline:"Cor, leveza e potência num formato inédito.",
@@ -844,7 +802,7 @@ function renderHome(waGeneral){
   var categories=CATS.map(function(c){
     var prods=PRODUCTS.filter(function(p){return p.cat===c.id;}).map(function(p){
       return '<button data-act="openProduct" data-val="'+p.id+'" class="lift-b" style="display:flex;flex-direction:column;align-items:center;text-align:center;background:var(--surface-alt);border:none;border-radius:28px;padding:26px 22px 24px;cursor:pointer">'+
-        '<h3 style="font-size:22px;font-weight:600;letter-spacing:-.02em;line-height:1.2;margin:5px 0 3px;color:var(--text);min-height:53px;display:flex;align-items:center;justify-content:center">'+p.name+'</h3>'+
+        '<h3 style="font-size:22px;font-weight:600;letter-spacing:-.02em;line-height:1.2;margin:5px 0 3px;color:var(--text);min-height:53px;display:flex;align-items:center;justify-content:center">'+p.name.replace(/ e (iPhone)/,'<br />e $1')+'</h3>'+
         '<p style="font-size:13px;line-height:1.4;color:var(--text-3);margin:0;min-height:54px;display:flex;align-items:center;justify-content:center">'+p.tagline+'</p>'+
         '<div style="width:100%;display:flex;align-items:center;justify-content:center;height:220px;margin:8px 0 14px"><div role="img" aria-label="'+p.name+'" style="width:100%;height:220px;border-radius:18px;overflow:hidden;background:#fff;background-image:url(\''+p.img+'\');background-size:contain;background-position:center;background-repeat:no-repeat"></div></div>'+
         '<span style="display:inline-flex;align-items:center;gap:7px;background:linear-gradient(135deg,#25cdf8 0%,#0a90dd 52%,#0567bb 100%);color:#fff;font-size:14px;font-weight:500;padding:11px 20px;border-radius:980px;min-height:44px">Ver detalhes <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"></path></svg></span></button>';
